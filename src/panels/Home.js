@@ -14,7 +14,7 @@ const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id} style={{display: 'flex'}}>
 		<PanelHeader>Пожертвования</PanelHeader>
 		<Div style={{display: 'flex',
-				height: '100vh',
+				height: '100%',
 			    alignItems: 'center',
 			    justifyContent: 'center',}}>
 			<Placeholder
@@ -24,8 +24,8 @@ const Home = ({ id, go, fetchedUser }) => (
 					Создать сбор
 				</Button>}
 				>
-            {`У вас пока нет сборов.
-            Начните доброе дело`}
+            {`У вас пока нет сборов.`}<br/>
+            {`Начните доброе дело`}
          	</Placeholder>
 		</Div>
 		
