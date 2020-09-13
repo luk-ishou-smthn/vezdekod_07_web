@@ -7,27 +7,28 @@ import Group from '@vkontakte/vkui/dist/components/Group/Group';
 import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
+import Placeholder from '@vkontakte/vkui/dist/components/Placeholder/Placeholder'
+
 
 const Home = ({ id, go, fetchedUser }) => (
-	<Panel id={id}>
-		<PanelHeader>Example</PanelHeader>
-		{fetchedUser &&
-		<Group title="User Data Fetched with VK Bridge">
-			<Cell
-				before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
-				description={fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}
-			>
-				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
-			</Cell>
-		</Group>}
+	<Panel id={id}
+		style={{
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+}}>
+		<PanelHeader>Пожертвования</PanelHeader>
+		<Placeholder
+            //>icon={<Icon56UsersOutline />}
+            //>header="Уведомления от сообществ"
+            action={<Button size='l' onClick={go} data-to="persik">
+					Создать сбор
+				</Button>}
+          >
+            {`У вас пока нет сборов.
+            Начните доброе дело`}
+          </Placeholder>
 
-		<Group title="Navigation Example">
-			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="persik">
-					Show me the Persik, please
-				</Button>
-			</Div>
-		</Group>
 	</Panel>
 );
 

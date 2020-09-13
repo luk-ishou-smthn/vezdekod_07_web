@@ -33,7 +33,7 @@ const App = () => {
 	};
 
 	return (
-		<View activePanel={activePanel} popout={popout}>
+		<View activePanel={activePanel}>
 			<Home id='home' fetchedUser={fetchedUser} go={go} />
 			<Persik id='persik' go={go} />
 		</View>
