@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/vezdekod_07_web/static/css/main.981f7211.chunk.css",
-    "main.js": "/vezdekod_07_web/static/js/main.b36d97a3.chunk.js",
-    "main.js.map": "/vezdekod_07_web/static/js/main.b36d97a3.chunk.js.map",
+    "main.js": "/vezdekod_07_web/static/js/main.627fd398.chunk.js",
+    "main.js.map": "/vezdekod_07_web/static/js/main.627fd398.chunk.js.map",
     "runtime-main.js": "/vezdekod_07_web/static/js/runtime-main.60439c47.js",
     "runtime-main.js.map": "/vezdekod_07_web/static/js/runtime-main.60439c47.js.map",
-    "static/css/2.09e62520.chunk.css": "/vezdekod_07_web/static/css/2.09e62520.chunk.css",
-    "static/js/2.2812dcbf.chunk.js": "/vezdekod_07_web/static/js/2.2812dcbf.chunk.js",
-    "static/js/2.2812dcbf.chunk.js.map": "/vezdekod_07_web/static/js/2.2812dcbf.chunk.js.map",
+    "static/css/2.86df01db.chunk.css": "/vezdekod_07_web/static/css/2.86df01db.chunk.css",
+    "static/js/2.f885548b.chunk.js": "/vezdekod_07_web/static/js/2.f885548b.chunk.js",
+    "static/js/2.f885548b.chunk.js.map": "/vezdekod_07_web/static/js/2.f885548b.chunk.js.map",
     "index.html": "/vezdekod_07_web/index.html",
-    "precache-manifest.baa6299c5105c292a53e31421fc11381.js": "/vezdekod_07_web/precache-manifest.baa6299c5105c292a53e31421fc11381.js",
+    "precache-manifest.4050c822dd1bc42cc4234d986f93f848.js": "/vezdekod_07_web/precache-manifest.4050c822dd1bc42cc4234d986f93f848.js",
     "service-worker.js": "/vezdekod_07_web/service-worker.js",
-    "static/css/2.09e62520.chunk.css.map": "/vezdekod_07_web/static/css/2.09e62520.chunk.css.map",
+    "static/css/2.86df01db.chunk.css.map": "/vezdekod_07_web/static/css/2.86df01db.chunk.css.map",
     "static/css/main.981f7211.chunk.css.map": "/vezdekod_07_web/static/css/main.981f7211.chunk.css.map",
-    "static/js/2.2812dcbf.chunk.js.LICENSE.txt": "/vezdekod_07_web/static/js/2.2812dcbf.chunk.js.LICENSE.txt",
+    "static/js/2.f885548b.chunk.js.LICENSE.txt": "/vezdekod_07_web/static/js/2.f885548b.chunk.js.LICENSE.txt",
     "static/media/persik.png": "/vezdekod_07_web/static/media/persik.4e1ec840.png"
   },
   "entrypoints": [
     "static/js/runtime-main.60439c47.js",
-    "static/css/2.09e62520.chunk.css",
-    "static/js/2.2812dcbf.chunk.js",
+    "static/css/2.86df01db.chunk.css",
+    "static/js/2.f885548b.chunk.js",
     "static/css/main.981f7211.chunk.css",
-    "static/js/main.b36d97a3.chunk.js"
+    "static/js/main.627fd398.chunk.js"
   ]
 }
