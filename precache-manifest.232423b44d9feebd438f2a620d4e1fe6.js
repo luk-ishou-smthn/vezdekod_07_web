@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b50066ae5a67d67f6f3c155bd7d7f946",
+    "revision": "de62b78b9ae5ecf63ae6acb8379547bf",
     "url": "/vezdekod_07_web/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vezdekod_07_web/static/css/2.86df01db.chunk.css"
   },
   {
-    "revision": "d411a70841a1d9191987",
+    "revision": "9e35e2ae51b95d932422",
     "url": "/vezdekod_07_web/static/css/main.981f7211.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vezdekod_07_web/static/js/2.eb1b0ec4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d411a70841a1d9191987",
-    "url": "/vezdekod_07_web/static/js/main.03fe8dad.chunk.js"
+    "revision": "9e35e2ae51b95d932422",
+    "url": "/vezdekod_07_web/static/js/main.5c23fb5c.chunk.js"
   },
   {
     "revision": "ca0fd6085db7ace1001a",
