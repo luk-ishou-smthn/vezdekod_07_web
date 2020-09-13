@@ -11,9 +11,10 @@ import Placeholder from '@vkontakte/vkui/dist/components/Placeholder/Placeholder
 
 
 const Home = ({ id, go, fetchedUser }) => (
-	<Panel id={id}>
+	<Panel id={id} style={{display: 'flex'}}>
 		<PanelHeader>Пожертвования</PanelHeader>
 		<Div style={{display: 'flex',
+				height: '100vh',
 			    alignItems: 'center',
 			    justifyContent: 'center',}}>
 			<Placeholder
