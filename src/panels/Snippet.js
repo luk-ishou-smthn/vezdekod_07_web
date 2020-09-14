@@ -45,9 +45,9 @@ const Snippet = props => (
 			        }}>
 			        	<img  style={{display: 'block', width: '100%'}}
 				        src={persik} alt="Persik The Cat"/>
-				        <Header>Одному берлинскому пациенту</Header>
-				        <Div  style={{fontSize: '0.8em', paddingTop:'0'}}>
-				        	За прекрасную Россию будущего!
+				        <Header style={{paddingBottom: '0'}}>Одному берлинскому пациенту</Header>
+				        <Div  style={{fontSize: '0.75em', paddingTop:'0', color: '#818C99'}}>
+				        	Матвей Правосудов · Помощь нужна каждый месяц
 				        </Div>
 				        <Separator></Separator>
 				        <Div>
@@ -59,6 +59,11 @@ const Snippet = props => (
 				        </Div>
 
 				        <Separator></Separator>
+				        <Div style={{fontSize: '0.8em', color: '#818C99'}}>
+				        	Птенец 🕯 · ваша карма: 0
+				        	<br/>
+				        	<p style={{color:'#3F8AE0', fontSize: '0.85em',margin:'0'}}>Узнать подробнее</p>
+				        </Div>
 				        
 			    </div>
 			      </Div>
