@@ -16,32 +16,28 @@ import Separator from '@vkontakte/vkui/dist/components/Separator/Separator';
 import Progress from '@vkontakte/vkui/dist/components/Progress/Progress';
 import InfoRow from '@vkontakte/vkui/dist/components/InfoRow/InfoRow';
 import Button from '@vkontakte/vkui/dist/components/Button/Button';
+import PanelHeaderContent from '@vkontakte/vkui/dist/components/PanelHeaderContent/PanelHeaderContent';
+
 import persik from '../img/cat 1.png';
 
 const osName = platform();
 
 
-const Snippet = props => (
-	<Panel id={props.id} style={{display: 'flex'}}>
-		<PanelHeader 
-			left={<PanelHeaderButton onClick={props.go} data-to="form">
-				{osName === IOS ? <Icon28ChevronBack/> : <Icon24Back/>}
-			</PanelHeaderButton>}
-		>
-			Сниппет
-		</PanelHeader>
+const SnippetInfo = props => (
+	<Panel id={props.id} style={{display: 'flex', padding:'0'}}>
+		<PanelHeader separator={false} style={{background: 'black'}}></PanelHeader>
 		<Div style={{display: 'flex',
 				height: '100%',
-			    alignItems: 'center',
-			    justifyContent: 'center',}}>
-			<Group style={{width: '100%'}}>
-			      <Div>
+			    alignItems: 'top',
+			    justifyContent: 'center',padding:'0',
+			          position: 'absolute', top:0, left:0, width:'100%'}}>
+			       <Group style={{width: '100%'}}>
 			      	<div style={{
 			          background: '#fff',
 			          border: '0.5px solid rgba(0, 0, 0, .1)',
 			          justifyContent: 'center',
 			          width: '100%',
-			          borderRadius: 12
+			          borderRadius: 12, margin:0
 			        }}>
 			        	<img  style={{display: 'block', width: '100%'}}
 				        src={persik} alt="Persik The Cat"/>
@@ -61,19 +57,15 @@ const Snippet = props => (
 				        <Separator></Separator>
 				        
 			    </div>
-			      </Div>
 			</Group>
 		</Div>
-		
-		
-
 	</Panel>
 );
 
-Snippet.propTypes = {
+SnippetInfo.propTypes = {
 	id: PropTypes.string.isRequired,
 	go: PropTypes.func.isRequired,
 
 };
 
-export default Snippet;
+export default SnippetInfo;

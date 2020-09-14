@@ -8,11 +8,12 @@ import Home from './panels/Home';
 import Persik from './panels/Persik';
 import Snippet from './panels/Snippet';
 import InputForm from './panels/InputForm';
+import SnippetInfo from './panels/SnippetInfo';
 
 
 
 const App = () => {
-	const [activePanel, setActivePanel] = useState('snippet');
+	const [activePanel, setActivePanel] = useState('home');
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
 
@@ -42,6 +43,7 @@ const App = () => {
 			<Persik id='persik' go={go} />
 			<InputForm id='form' go={go}/>
 			<Snippet id='snippet' go={go} />
+			<SnippetInfo id='snippetinf' go={go} />
 		</View>
 	);
 }
