@@ -6,6 +6,10 @@ import '@vkontakte/vkui/dist/vkui.css';
 
 import Home from './panels/Home';
 import Persik from './panels/Persik';
+import Snippet from './panels/Snippet';
+import InputForm from './panels/InputForm';
+
+
 
 const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
@@ -36,6 +40,8 @@ const App = () => {
 		<View activePanel={activePanel}>
 			<Home id='home' fetchedUser={fetchedUser} go={go} />
 			<Persik id='persik' go={go} />
+			<InputForm id='form' go={go}/>
+			<Snippet id='snippet' go={go} />
 		</View>
 	);
 }

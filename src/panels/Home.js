@@ -20,7 +20,7 @@ const Home = ({ id, go, fetchedUser }) => (
 			<Placeholder
             //>icon={<Icon56UsersOutline />}
             //>header="Уведомления от сообществ"
-            action={<Button size='l' onClick={go} data-to="persik">
+            action={<Button size='l' onClick={go} data-to="form">
 					Создать сбор
 				</Button>}
 				>
