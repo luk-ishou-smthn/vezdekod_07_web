@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vezdekod_07_web/static/css/main.981f7211.chunk.css",
-    "main.js": "/vezdekod_07_web/static/js/main.5e8eea65.chunk.js",
-    "main.js.map": "/vezdekod_07_web/static/js/main.5e8eea65.chunk.js.map",
+    "main.js": "/vezdekod_07_web/static/js/main.d3c2f016.chunk.js",
+    "main.js.map": "/vezdekod_07_web/static/js/main.d3c2f016.chunk.js.map",
     "runtime-main.js": "/vezdekod_07_web/static/js/runtime-main.60439c47.js",
     "runtime-main.js.map": "/vezdekod_07_web/static/js/runtime-main.60439c47.js.map",
     "static/css/2.86df01db.chunk.css": "/vezdekod_07_web/static/css/2.86df01db.chunk.css",
     "static/js/2.fb99b791.chunk.js": "/vezdekod_07_web/static/js/2.fb99b791.chunk.js",
     "static/js/2.fb99b791.chunk.js.map": "/vezdekod_07_web/static/js/2.fb99b791.chunk.js.map",
     "index.html": "/vezdekod_07_web/index.html",
-    "precache-manifest.5659724fb937c7a5a7f02abd09faa8fe.js": "/vezdekod_07_web/precache-manifest.5659724fb937c7a5a7f02abd09faa8fe.js",
+    "precache-manifest.8b507785022bab40f0cdc663e9754555.js": "/vezdekod_07_web/precache-manifest.8b507785022bab40f0cdc663e9754555.js",
     "service-worker.js": "/vezdekod_07_web/service-worker.js",
     "static/css/2.86df01db.chunk.css.map": "/vezdekod_07_web/static/css/2.86df01db.chunk.css.map",
     "static/css/main.981f7211.chunk.css.map": "/vezdekod_07_web/static/css/main.981f7211.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.86df01db.chunk.css",
     "static/js/2.fb99b791.chunk.js",
     "static/css/main.981f7211.chunk.css",
-    "static/js/main.5e8eea65.chunk.js"
+    "static/js/main.d3c2f016.chunk.js"
   ]
 }
